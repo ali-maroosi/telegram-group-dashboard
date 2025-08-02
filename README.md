@@ -2,8 +2,10 @@
 ## How to Run:
 First, you need to install the dependencies. You can do this by running the following command:
 ```pip install -r requirements.txt```
+
 Then, run the following command to start the export environment variables in main repo directory:
 ```source .env```
+
 Run ```export PYTHONPATH=$PYTHONPATH:$PWD``` to add the current directory to the PYTHONPATH.
 
 Build django migrations by running the following command:
